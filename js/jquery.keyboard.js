@@ -1291,7 +1291,7 @@ $.fn.caret = function(options,opt2) {
 			selRange.moveEnd('character', end-start);
 			selRange.select();
 		}
-		t.focus();
+		$(t).focus();
 		t.scrollTop = sTop;
 		return this;
 	} else {
